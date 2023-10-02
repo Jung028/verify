@@ -1,7 +1,7 @@
 ---
 banner:
-  title: "Andromeda is the most intuitive </br> way to prototype Designs"
-  image: /images/banner-app.png
+  title: "Verify is a consumer research platform </br> that puts data into your hands"
+  image: /images/dash.png
   link:
     label: Get Premium Version
     href: "#"

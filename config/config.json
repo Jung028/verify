@@ -1,12 +1,9 @@
 {
   "site": {
-    "title": "Andromeda Light Nextjs",
+    "title": "Verify.",
     "base_url": "/",
-    "favicon": "/images/favicon.png",
-    "logo": "/images/logo.svg",
-    "logo_width": "240",
-    "logo_height": "34",
-    "logo_text": "Andromeda"
+    "favicon": "/images/favicon_verify.png",
+    "logo_text": "Verify."
   },
 
   "settings": {
