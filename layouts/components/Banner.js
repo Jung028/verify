@@ -2,7 +2,6 @@ import { gsap } from "@lib/gsap";
 import { markdownify } from "@lib/utils/textConverter";
 import Link from "next/link";
 import { useEffect, useRef } from "react";
-import Circle from "./Circle";
 import ImageFallback from "./ImageFallback";
 
 const Banner = ({ title }) => {
@@ -76,83 +75,9 @@ const Banner = ({ title }) => {
             <li className="mx-2">/</li>
             <li className="capitalize">{title}</li>
           </ul>
-          <div className="bg-theme banner-bg col-12 absolute top-0 left-0 bg-theme-light before:hidden after:hidden">
-            <ImageFallback
-              priority={true}
-              fill={true}
-              src="/images/vectors/single-banner-wave-1.svg"
-              sizes="100vw"
-              alt=""
-            />
-            <ImageFallback
-              priority={true}
-              fill={true}
-              src="/images/vectors/single-banner-wave-2.svg"
-              sizes="100vw"
-              alt=""
-            />
-            <Circle
-              className="circle left-[15%] top-[18%]"
-              width={32}
-              height={32}
-              fill={false}
-            />
-            <Circle
-              className="circle left-[4%] bottom-[27%]"
-              width={73}
-              height={73}
-            />
-            <Circle
-              className="circle left-[39.5%] bottom-[27%]"
-              width={20}
-              height={20}
-            />
-            <Circle
-              className="circle left-[22%] bottom-[24%]"
-              width={47}
-              height={47}
-              fill={false}
-            />
-            <Circle
-              className="circle left-[31%] top-[10%]"
-              width={62}
-              height={62}
-              fill={false}
-            />
-            <Circle
-              className="circle right-[27%] top-[15%]"
-              width={20}
-              height={20}
-              fill={false}
-            />
-            <Circle
-              className="circle right-[3%] bottom-[17%]"
-              width={73}
-              height={73}
-              fill={false}
-            />
-            <Circle
-              className="circle right-[38%] bottom-[50%]"
-              width={20}
-              height={20}
-              fill={false}
-            />
-            <Circle
-              className="circle right-[13%] top-[30%]"
-              width={20}
-              height={20}
-            />
-            <Circle
-              className="circle right-[20%] bottom-[29%]"
-              width={65}
-              height={65}
-            />
-            <Circle
-              className="circle right-[35%] bottom-[12%]"
-              width={37}
-              height={37}
-              fill={false}
-            />
+          <div className="bg-theme banner-bg col-12 absolute top-0 left-0 bg-white before:hidden after:hidden">
+            
+            
           </div>
         </div>
       </div>
@@ -161,3 +86,20 @@ const Banner = ({ title }) => {
 };
 
 export default Banner;
+
+/*
+<ImageFallback
+priority={true}
+fill={true}
+src="/images/vectors/single-banner-wave-1.svg"
+sizes="100vw"
+alt=""
+/>
+<ImageFallback
+priority={true}
+fill={true}
+src="/images/vectors/single-banner-wave-2.svg"
+sizes="100vw"
+alt=""
+/>
+*/

@@ -2,7 +2,6 @@ import { markdownify } from "@lib/utils/textConverter";
 import { Autoplay } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 import Banner from "./components/Banner";
-import Circle from "./components/Circle";
 import Cta from "./components/Cta";
 import ImageFallback from "./components/ImageFallback";
 import VideoPopup from "./components/VideoPopup";
@@ -36,38 +35,7 @@ const About = ({ data }) => {
                   height={487}
                   alt=""
                 />
-                <Circle
-                  className="top-4 left-4 z-[-1]"
-                  width={85}
-                  height={85}
-                />
-                <Circle
-                  width={37}
-                  height={37}
-                  fill={false}
-                  className="top-20 right-10 z-[-1]"
-                />
-                <Circle
-                  className="top-1/2 right-12 -z-[1]"
-                  width={24}
-                  height={24}
-                />
-                <Circle
-                  className="bottom-6 right-6 z-[-1]"
-                  width={85}
-                  height={85}
-                />
-                <Circle
-                  className="top-1/2 left-12 z-[-1]"
-                  width={20}
-                  height={20}
-                />
-                <Circle
-                  className="bottom-12 left-8 z-[1]"
-                  width={47}
-                  height={47}
-                  fill={false}
-                />
+             
               </div>
             </div>
             <div className="animate md:col-6 lg:col-4 md:order-1">
@@ -109,38 +77,7 @@ const About = ({ data }) => {
                   height={487}
                   alt=""
                 />
-                <Circle
-                  className="top-4 left-4 z-[-1]"
-                  width={85}
-                  height={85}
-                />
-                <Circle
-                  width={37}
-                  height={37}
-                  fill={false}
-                  className="top-20 right-10 z-[-1]"
-                />
-                <Circle
-                  className="top-1/2 right-12 -z-[1]"
-                  width={24}
-                  height={24}
-                />
-                <Circle
-                  className="bottom-6 right-6 z-[-1]"
-                  width={85}
-                  height={85}
-                />
-                <Circle
-                  className="top-1/2 left-12 z-[-1]"
-                  width={20}
-                  height={20}
-                />
-                <Circle
-                  className="bottom-12 left-8 z-[1]"
-                  width={47}
-                  height={47}
-                  fill={false}
-                />
+          
               </div>
             </div>
             <div className="animate md:col-6 lg:col-4">
@@ -154,48 +91,7 @@ const About = ({ data }) => {
         {/* Video */}
         <div className="container-xl relative">
           <div className="bg-theme absolute top-0 left-0 w-full">
-            <Circle
-              className="left-[7%] top-[21%]"
-              width={32}
-              height={32}
-              fill={false}
-            />
-            <Circle
-              className="left-[30%] top-[10%]"
-              width={20}
-              height={20}
-              fill={false}
-            />
-            <Circle
-              className="left-[4%] bottom-[35%]"
-              width={20}
-              height={20}
-              fill={false}
-            />
-            <Circle
-              className="left-[10%] bottom-[11%]"
-              width={37}
-              height={37}
-              fill={false}
-            />
-            <Circle
-              className="left-[44%] bottom-[48%]"
-              width={37}
-              height={37}
-              fill={false}
-            />
-            <Circle
-              className="left-[35%] bottom-[22%]"
-              width={20}
-              height={20}
-              fill={false}
-            />
-            <Circle
-              className="right-[32%] top-[2%]"
-              width={47}
-              height={47}
-              fill={false}
-            />
+           
           </div>
           <div className="row items-center justify-center py-[90px]">
             <div className="md:col-6 xl:col-4">

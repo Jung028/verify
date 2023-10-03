@@ -6,6 +6,12 @@ const Logo = ({ src }) => {
   // destructuring items from config object
   const { logo, logo_width, logo_height, logo_text, title } = config.site;
 
+  const logoTextStyle ={ 
+    fontSize: "30px",
+    fontFamily: "Avenir",
+  };
+
+
   return (
     <Link href="/" className="navbar-brand block">
       {src || logo ? (
@@ -21,7 +27,9 @@ const Logo = ({ src }) => {
           }}
         />
       ) : logo_text ? (
-        logo_text
+        <span style={logoTextStyle}>
+          {logo_text}
+        </span>
       ) : (
         title
       )}

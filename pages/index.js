@@ -1,5 +1,6 @@
+// This is the Home Page 
+
 import Base from "@layouts/Baseof";
-import Circle from "@layouts/components/Circle";
 import Cta from "@layouts/components/Cta";
 import ImageFallback from "@layouts/components/ImageFallback";
 import VideoPopup from "@layouts/components/VideoPopup";
@@ -102,61 +103,7 @@ const Home = ({ banner, brands, features, intro, speciality, testimonial }) => {
         <div className="container-xl">
           <div className="relative">
             <div className="bg-theme banner-bg col-12 absolute top-0 left-0">
-              <Circle
-                className="circle left-[10%] top-12"
-                width={32}
-                height={32}
-                fill={false}
-              />
-              <Circle
-                className="circle left-[2.5%] top-[29%]"
-                width={85}
-                height={85}
-              />
-              <Circle
-                className="circle left-[22%] bottom-[48%]"
-                width={20}
-                height={20}
-              />
-              <Circle
-                className="circle left-[15%] bottom-[37%]"
-                width={47}
-                height={47}
-                fill={false}
-              />
-              <Circle
-                className="circle left-[6%] bottom-[13%]"
-                width={62}
-                height={62}
-                fill={false}
-              />
-              <Circle
-                className="circle right-[12%] top-[15%]"
-                width={20}
-                height={20}
-              />
-              <Circle
-                className="circle right-[2%] top-[30%]"
-                width={73}
-                height={73}
-                fill={false}
-              />
-              <Circle
-                className="circle right-[19%] top-[48%]"
-                width={37}
-                height={37}
-                fill={false}
-              />
-              <Circle
-                className="circle right-[33%] top-[54%]"
-                width={20}
-                height={20}
-              />
-              <Circle
-                className="circle right-[3%] bottom-[20%]"
-                width={65}
-                height={65}
-              />
+              
             </div>
             <div className="row overflow-hidden rounded-2xl">
               <div className="col-12">
@@ -289,57 +236,7 @@ const Home = ({ banner, brands, features, intro, speciality, testimonial }) => {
               </div>
             </div>
             <div className="bg-theme absolute top-0 left-0 w-full">
-              <Circle
-                className="left-[10%] top-12"
-                width={32}
-                height={32}
-                fill={false}
-              />
-              <Circle className="left-[3%] top-[30%]" width={85} height={85} />
-              <Circle
-                className="left-[22%] bottom-[52%]"
-                width={20}
-                height={20}
-              />
-              <Circle
-                className="left-[15%] bottom-[35%]"
-                width={47}
-                height={47}
-                fill={false}
-              />
-              <Circle
-                className="left-[6%] bottom-[6%]"
-                width={62}
-                height={62}
-                fill={false}
-              />
-              <Circle
-                className="right-[12%] top-[12%]"
-                width={20}
-                height={20}
-              />
-              <Circle
-                className="right-[2%] top-[30%]"
-                width={73}
-                height={73}
-                fill={false}
-              />
-              <Circle
-                className="right-[19%] top-[50%]"
-                width={37}
-                height={37}
-                fill={false}
-              />
-              <Circle
-                className="right-[33%] top-[52%]"
-                width={20}
-                height={20}
-              />
-              <Circle
-                className="right-[5%] bottom-[18%]"
-                width={65}
-                height={65}
-              />
+          
             </div>
           </div>
         </div>

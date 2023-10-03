@@ -120,7 +120,7 @@
   @apply relative bg-[50%] bg-contain h-full  -z-[1]  rounded-2xl;
 
   &::before {
-    @apply content-[''] absolute left-0 top-0 w-full h-full rounded-[30px] bg-contain bg-no-repeat bg-[#fff7f3] scale-[.3] transition-transform duration-[1500ms] ease-[cubic-bezier(.105,.84,.44,1)] -z-[1];
+    @apply content-[''] absolute left-0 top-0 w-full h-full rounded-[30px] bg-contain bg-no-repeat bg-white scale-[.3] transition-transform duration-[1500ms] ease-[cubic-bezier(.105,.84,.44,1)] -z-[1];
   }
 
   &::after {
@@ -150,7 +150,7 @@
     @apply h-[calc(50%_+_160px)];
 
     &::before {
-      @apply h-[95%] bg-[0_50px] scale-100 bg-theme-light;
+      @apply h-[95%] bg-[0_50px] scale-100 bg-white;
       background-image: url("data:image/svg+xml,%0A%3Csvg width='1397' height='502' viewBox='0 0 1397 502' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M2 501C35.0836 398.787 165.889 212.869 424.439 286.903C747.628 379.445 887.776 260.891 943.636 155.844C999.496 50.796 1146.13 -47.2484 1396 29.2863' stroke='%23FFE4D1' stroke-opacity='0.85' stroke-width='4' stroke-dasharray='10 10'/%3E%3C/svg%3E%0A")
     }
 
