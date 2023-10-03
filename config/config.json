@@ -15,41 +15,41 @@
   "params": {
     "tag_manager_id": "",
     "contact_form_action": "#",
-    "footer_content": "Lorem ipsum dolor sit sed dmi amet, consectetur adipiscing. Cdo tellus, sed condimentum volutpat.",
+    "footer_content": "Verify is a data science SaaS company that helps businesses unlock the power of their customer data. We provide a comprehensive suite of solutions to help you make informed decisions, validate product concepts, and drive growth.",
     "copyright": "Designed & Developed By [Themefisher](https:www.themefisher.com)"
   },
 
   "contact_info": {
     "phone": "+887887998",
-    "email": "info@andromeda.io",
-    "location": "2118 Thornridge Cir. Syracuse, Connecticut 35624"
+    "email": "info@verify.com",
+    "location": "Levels 18, Boutique Office 1(BO1-D), Menara 2, No. 3, Jalan Bangsar, KL Eco City, 59200 Kuala Lumpur"
   },
 
   "nav_button": {
     "enable": true,
-    "label": "Download Now",
-    "link": "https://themefisher.com/products/andromeda-light-nextjs"
+    "label": "Start Your Free Trial",
+    "link": "https://verify.com/signup"
   },
 
   "metadata": {
-    "meta_author": "Themefisher",
-    "meta_image": "/images/og-image.png",
-    "meta_description": "Andromeda-light Nextjs Blog Template"
+    "meta_author": "Verify",
+    "meta_image": "/images/verify-og-image.png",
+    "meta_description": "Verify - Data Science SaaS Solutions for Businesses"
   },
 
   "call_to_action": {
     "enable": true,
-    "title": "Get Andromeda Now",
-    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi egestas </br> Werat viverra id et aliquet. vulputate egestas sollicitudin.",
+    "title": "Empower Your Business with Data Science",
+    "content": "Sign up for a free trial of Verify today and start making data-driven decisions that will drive growth for your business.",
     "button": {
-      "label": "Download The Theme",
-      "link": "https://themefisher.com/products/andromeda-light-nextjs"
+      "label": "Start Your Free Trial",
+      "link": "https://verify.com/signup"
     }
   },
 
   "disqus": {
     "enable": true,
-    "shortname": "themefisher-template",
+    "shortname": "verify-template",
     "settings": {}
   }
 }

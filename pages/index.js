@@ -1,4 +1,6 @@
 // This is the Home Page 
+//homepage
+
 
 import Base from "@layouts/Baseof";
 import Cta from "@layouts/components/Cta";

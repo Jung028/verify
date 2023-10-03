@@ -184,39 +184,40 @@ const About = ({ data }) => {
             </div>
           </div>
         </div>
-
-        {/* Office */}
-        <div className="section container">
-          <div className="animate text-center">
-            <p>{our_office.subtitle}</p>
-            {markdownify(our_office.title, "h2", "section-title mt-4")}
-            {markdownify(our_office.content, "p", "mt-16")}
-          </div>
-          <div className="row justify-center">
-            <div className="lg:col-10">
-              <div className="row  justify-center">
-                {our_office.countries.map((country, index) => (
-                  <div
-                    key={("country-", index)}
-                    className="animate mt-10 md:col-6 xl:col-3"
-                  >
-                    <div className="rounded-xl p-5 shadow-[0_4px_25px_rgba(0,0,0,.05)]">
-                      <ImageFallback
-                        // className="mx-auto"
-                        src={country.flag}
-                        width={80}
-                        height={80}
-                        alt={country.name}
-                      />
-                      <h5 className="h4 mt-2">{country.name}</h5>
-                      <p className="mt-2">{country.location}</p>
-                    </div>
-                  </div>
-                ))}
+{/* Office */}
+<div className="section container">
+  <div className="animate text-center">
+    <p>{our_office.subtitle}</p>
+    {markdownify(our_office.title, "h2", "section-title mt-4")}
+    {markdownify(our_office.content, "p", "mt-16")}
+  </div>
+  <div className="row justify-center">
+    <div className="lg:col-10">
+      <div className="row  justify-center">
+        {our_office.countries.map((country, index) => (
+          <div
+            key={("country-", index)}
+            className="animate mt-10 md:col-6 xl:col-3"
+          >
+            <a href={country.url} target="_blank" rel="noopener noreferrer"> {/* Add target="_blank" to open links in a new tab */}
+              <div className="rounded-xl p-5 shadow-[0_4px_25px_rgba(0,0,0,.05)]">
+                <ImageFallback
+                  // className="mx-auto"
+                  src={country.flag}
+                  width={80}
+                  height={80}
+                  alt={country.name}
+                />
+                <h5 className="h4 mt-2">{country.name}</h5>
+                <p className="mt-2">{country.location}</p>
               </div>
-            </div>
+            </a>
           </div>
-        </div>
+        ))}
+      </div>
+    </div>
+  </div>
+</div>
       </section>
       <Cta />
     </>

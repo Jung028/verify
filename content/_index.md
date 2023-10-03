@@ -1,4 +1,5 @@
 ---
+
 banner:
   title: "Unlock the Power of Customer Data"
   image: /images/homepage/data-visualization-graph .jpeg
@@ -16,7 +17,6 @@ brands:
   - /images/brands/meta.png
   - /images/brands/oracle.png
   - /images/brands/ibm.png
-  - /images/brands/tesla1.png
 
 
 
@@ -28,60 +28,69 @@ features:
   title: Empowering Businesses with Actionable Customer Data
   description: Verify is a leading consumer research platform that harnesses the power of machine learning and artificial intelligence to extract valuable insights from customer data, helping you make informed decisions and drive growth.
   list:
-    - icon: 'chart'
+    - icon: 'activity'
       title: Predictive Analytics
       content: Utilize predictive modeling to stay ahead of market trends and consumer preferences.
-    - icon: 'target'
+    - icon: 'git-branch'
       title: Targeted Marketing
       content: Identify and target specific customer segments for more effective marketing strategies.
-    - icon: 'document'
+    - icon: 'git-pull-request'
       title: Customizable Reports
       content: Tailor data analysis and reporting to your unique business needs.
-    - icon: 'sync'
+    - icon: 'refresh-ccw'
       title: Real-time Updates
       content: Stay up-to-date with the latest insights to make agile decisions.
-    - icon: 'support'
+    - icon: 'user-check'
       title: Exceptional Support
       content: Our dedicated support team is here to assist you every step of the way.
+    - icon: 'cpu'
+      title: Data Visualization
+      content: Visualize complex data sets with ease, gaining a clearer understanding of trends and patterns.
+    - icon: 'cloud-rain'
+      title: Rapid Scaling
+      content: Scale your business quickly and efficiently with the support of our platform.
+    - icon: 'anchor'
+      title: Customer Segmentation
+      content: Effectively target and engage specific customer segments for personalized marketing.
+
 
 # Intro Section
 intro:
-  title: Built Exclusively For You
+  title: Unlock the Power of Customer Data
   subtitle: Watch Our Intro Video
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi egestas <br> vel lorem vel viverra id et aliquet. Fusce vulputate egestas sollicitudin.
+  description: Utilize Verify to make data-driven decisions and uncover valuable insights from your customer data. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vulputate egestas sollicitudin.
   thumbnail: "/images/video-popup.jpg"
   video_id: dyZcRRWiuuw
 
 # Specialty Section
 speciality:
   primary:
-    title: Data-Driven Decision Making
+    title: Actionable Customer Insights
     subtitle: PRIMARY SPECIALTY
-    description: Discover actionable insights and transform your business with data-driven decisions. Verify empowers you to unlock the full potential of your customer data.
+    description: Leverage Verify's data-driven solutions to make informed decisions and drive your business forward. Unlock the full potential of your customer data.
     image: /images/features-01.png
   secondary:
-    title: Seamless Integration
+    title: Seamless Data Integration
     subtitle: SECONDARY SPECIALTY
-    description: Seamlessly integrate Verify into your existing systems and processes. Our platform complements your workflow, ensuring efficiency and accuracy.
+    description: Seamlessly integrate Verify into your existing systems and processes. Our platform enhances workflow efficiency and ensures data accuracy.
     image: /images/features-02.png
 
 # Testimonial Section
 testimonial:
   title: What Our Clients Say
   subtitle: Hear from Satisfied Customers
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi egestas <br> vel lorem vel viverra id et aliquet. Fusce vulputate egestas sollicitudin.
+  description: Discover how Verify has made an impact on businesses like yours. Read what our clients have to say about their experiences.
   list:
     - author: Jane Smith
       avatar: /images/user-img/01.jpg
       profession: CEO, TechCo
-      content: "Verify has revolutionized the way we understand our customers. Their data insights have led to significant growth in our business."
+      content: "Verify has transformed the way we understand our customers. Their data insights have driven significant growth in our business."
     - author: John Doe
       avatar: /images/user-img/02.jpg
       profession: CMO, Innovate Corp
-      content: "The predictive analytics provided by Verify have been a game-changer for our marketing efforts. Highly recommended!"
+      content: "Verify's predictive analytics have been a game-changer for our marketing efforts. Highly recommended!"
     - author: Sarah Johnson
       avatar: /images/user-img/03.jpg
       profession: COO, GrowthX
       content: "We rely on Verify's customizable reports to make data-driven decisions. It's an indispensable tool for our team."
-
 ---
