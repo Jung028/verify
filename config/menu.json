@@ -30,6 +30,10 @@
     {
       "name": "Contact",
       "url": "/contact"
+    },
+    {
+      "name": "SignUp",
+      "url": "/signup"
     }
   ],
   "footer": [
