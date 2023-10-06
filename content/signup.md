@@ -1,5 +1,5 @@
 ---
 title: "Sign Up"
-layout: "contact"
+layout: "signup"
 draft: false
 ---
